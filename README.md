@@ -59,6 +59,3 @@ streamlit run ui.py
 - The aggregator is currently primed to trust human responses implicitly over AI, which decreases distrust from public and risk of hallucinations swaying consensus. However, this also means that, if a clearly factual statement ("The sky is blue") is deemed by at least one of the human contributors to be false, it is voided as such - even if the AI and other human recognise the text as factual.
     - **TEST**: treating factual questions as false, and answering the HITL questions as such.
     - **FUTURE**: implement a form of reputation and disagreement audits to gain more information on reasons - if given reasons are weak, decrease reputation.
-
-
-<!-- yo README, I'm extremely tired and I'm gonna go climb now, later bro -->
